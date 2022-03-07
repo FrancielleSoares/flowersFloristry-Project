@@ -1,1 +1,1 @@
-# flowersFloristry-Project
+# Flowers Floristry
