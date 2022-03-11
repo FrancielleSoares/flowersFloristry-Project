@@ -1,9 +1,27 @@
 
-
 body {
     background-color: #9a519b;
+    height: 100%; 
+    width: 100%;
+    
 }
 
+.u-header {
+  padding: 60px;
+  background: #1abc9c;
+  color: white;
+}
+
+.u-h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.u-h2 {
+  font-size: 30px;
+  text-align: center;
+  margin-left: 176px;
+}
 
 
 /* Site em manutenção
@@ -46,10 +64,7 @@ body{
 }
 
 @media (max-width: 1199px) and (min-width: 992px){
-  .u-footer {
-    background-image: none;
-    background-attachment: fixed;
-  } 
+  
 }  */
 
 
@@ -59,9 +74,15 @@ body{
 
 
 /* footer */
+.u-footer {
+  height: 100%;
+  width:100%;
+  background: #ddd;
+}
+
 .rodape {
   width: 100%;
-  padding: 40px 0;
+  padding: 60px 0;
   background-color: #9b699c;
 }
 
