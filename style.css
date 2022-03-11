@@ -1,28 +1,50 @@
+/* MEDIA MIN-MAX teste
 
+@media screen and (min-width: 1000px) and (max-width: 640px){
+  .menulogo {
+    background-color: black;
+    
+  }
+}
+*/
+
+
+/**/
 body {
-    background-color: #9a519b;
+    background-color: #775151bd;
     height: 100%; 
     width: 100%;
-    
 }
-
+.imglogo {
+  margin-left: 50px;
+}
+.menulogo {
+  height: 50px;
+  background-color: #775151bd;
+  box-shadow: 0px 0px 100px 5px;
+  display: flex;
+  width: 100%; 
+}
 .u-header {
   padding: 60px;
   background: #1abc9c;
   color: white;
 }
+.imgheader {
+  width: 100%;
+}
 
 .u-h1 {
-  font-size: 50px;
+  width: 100%;
+  box-shadow: 3px 1px red, 1em 0 1em olive;
+  font-size: 99px;
   text-align: center;
 }
-
 .u-h2 {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
-  margin-left: 176px;
+  margin-left: 258px;
 }
-
 
 /* Site em manutenção
 
@@ -67,8 +89,18 @@ body{
   
 }  */
 
+/* main */
 
-
+.flowers10 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+ }
+ .cat {
+  height:100%;
+  width: 100%;
+  display: block;
+ }
 
 
 
@@ -83,7 +115,7 @@ body{
 .rodape {
   width: 100%;
   padding: 60px 0;
-  background-color: #9b699c;
+  background-color: #775151bd;
 }
 
 .copyright {
