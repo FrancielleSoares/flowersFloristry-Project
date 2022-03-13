@@ -10,17 +10,24 @@
 
 
 /**/
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
 body {
-    background-color: #775151bd;
-    height: 100%; 
-    width: 100%;
+    background-color: #9e7979;
+   
+    min-height: 100vh; 
+    min-width: 100vw;
 }
 .imglogo {
   margin-left: 50px;
 }
 .menulogo {
   height: 50px;
-  background-color: #775151bd;
+  background-color: #9e7979;
   box-shadow: 0px 0px 100px 5px;
   display: flex;
   width: 100%; 
@@ -39,11 +46,14 @@ body {
   box-shadow: 1px 1px red, 1em 0 1em olive;
   font-size: 99px;
   text-align: center;
+  object-fit: contain;
 }
 .u-h2 {
   font-size: 35px;
   text-align: center;
-  margin-left: 258px;
+  object-fit: contain;
+  position: relative;
+  left: 133px;
 }
 
 /* Site em manutenção
@@ -96,6 +106,11 @@ body{
   width: 100%;
   object-fit: contain;
  }
+ .flowers3 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+ }
  .cat {
   height:100%;
   width: 100%;
@@ -115,7 +130,7 @@ body{
 .rodape {
   width: 100%;
   padding: 60px 0;
-  background-color: #775151bd;
+  background-color: #9e7979;
 }
 
 .copyright {
