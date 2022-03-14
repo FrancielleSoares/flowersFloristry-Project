@@ -81,17 +81,16 @@ body{
   width: 100%;
   object-fit: contain;
  }
- .flowers3 {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
- }
+
  .cat {
   height:100%;
   width: 100%;
   display: inline-block;
  }
 
+ .u-p {
+  margin: 3% 10%;
+ }
 
 
 
@@ -124,6 +123,9 @@ body{
   .u-h2 {
     font-size: 21px;
     left: 93px;
+  }
+  .u-header {
+    padding: 30px 15px;
   }
 }
 
