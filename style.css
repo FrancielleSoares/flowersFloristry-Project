@@ -7,9 +7,102 @@ body {
   margin-left: 50px;
 }
 
+
+
+
+/* modernization */
+
+
+
+.c-featured {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  background-color: #a1b49d;
+}
+.c-featured__cover {
+  position: relative;
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-top: 100%;
+}
+.c-featured__description {
+  -ms-flex-item-align: center;
+  align-self: center;
+  justify-self: center;
+}
+@media (max-width: 1379.98px){
+    .c-featured__description {
+      padding: 40px 0 80px;
+    }
+  }
+
+.c-featured__description h2 {
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.31;
+  color: #53624f;
+  max-width: 500px;
+}
+.c-featured__description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #53624f;
+  max-width: 500px;
+  margin: 40px 0 70px;
+}
+.c-button.--secondary {
+  color: #53624f;
+  background-color: #c5b889;
+}
+
+.c-button {
+  display: block;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 16px;
+  text-align: center;
+  color: #e0e1df;
+  padding: 22px 30px 25px;
+  border-radius: 37.5px;
+  border: 1px solid rgba(0,0,0,0);
+  background-color: #c4752d;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+a {
+  color: inherit;
+}
+a, button {
+  outline: 0;
+}
+a {
+  text-decoration: none;
+}
+
+
+
+
+
+
+
 .u-header {
   padding: 60px;
-  background: #1abc9c;
+  background: #a1b49d;
   color: white;
 }
 .imgheader {
@@ -22,6 +115,7 @@ body {
   font-size: 90px;
   text-align: center;
   object-fit: contain;
+  border-radius: 41px;
 }
 .u-h2 {
   font-size: 35px;
