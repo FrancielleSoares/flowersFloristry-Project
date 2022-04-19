@@ -1,19 +1,104 @@
 
 
 body {
-    background-color: #9e7979;
+    background-color: #ffffff;
 }
-.imglogo {
-  margin-left: 50px;
+
+
+
+.u-header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
+.imgheader {
+  width: 60%;
+  justify-content: center;
+}
+.menulogo{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imagelogo {
+  justify-content: center;
+}
+
+
+.u-h1 {
+  width: 100%;
+  box-shadow: 1px 1px red, 1em 0 1em olive;
+  font-size: 90px;
+  text-align: center;
+  object-fit: contain;
+  border-radius: 41px;
+}
+.u-h2 {
+  font-size: 35px;
+  object-fit: contain;
+  position: relative;
+  display: inline-block;
+  left: 60%;
+}
+
+
+
+/* Site em manutenção
+body{
+    font-family: 'Titillium Web', sans-serif;
+    color: #666666;
+    text-align: center;
+  }
+
+  .box{
+    background-color: #fff;
+    width: 500px;
+    margin: 50px auto;
+  }
+
+  #title {
+    font-size: 30px;
+    margin-top: 25px;
+  }
+
+  #logo {
+    margin-top: 25px;
+    max-width: 365px;
+    height: auto;
+  }
+  
+  #logo-task {
+    width: 75px;
+  }
+  
+/******************************************************************/
+/* main */
+
+.flowers10 {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+  cursor: pointer;
+  transition: all .1s ease-in-out;
+ }
+
+ .cat {
+  height:100%;
+  width: 100%;
+  display: inline-block;
+ }
+
+ .u-p {
+  margin: 3% 10%;
+ }
+
+
 
 
 
 
 /* modernization */
-
-
-
 .c-featured {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -36,7 +121,6 @@ body {
       padding: 40px 0 80px;
     }
   }
-
 .c-featured__description h2 {
   font-size: 26px;
   font-weight: 400;
@@ -100,109 +184,17 @@ a {
 
 
 
-.u-header {
-  padding: 60px;
-  background: #a1b49d;
-  color: white;
-}
-.imgheader {
-  width: 100%;
-}
-
-.u-h1 {
-  width: 100%;
-  box-shadow: 1px 1px red, 1em 0 1em olive;
-  font-size: 90px;
-  text-align: center;
-  object-fit: contain;
-  border-radius: 41px;
-}
-.u-h2 {
-  font-size: 35px;
-  object-fit: contain;
-  position: relative;
-  display: inline-block;
-  left: 60%;
-}
-
-/* Site em manutenção
-
-
-body{
-    font-family: 'Titillium Web', sans-serif;
-    color: #666666;
-    text-align: center;
-  }
-
-  .box{
-    background-color: #fff;
-    width: 500px;
-    margin: 50px auto;
-  }
-
-  #title {
-    font-size: 30px;
-    margin-top: 25px;
-  }
-
-  #logo {
-    margin-top: 25px;
-    max-width: 365px;
-    height: auto;
-  }
-  
-  #logo-task {
-    width: 75px;
-  }
-  
-/******************************************************************/
-
-/* @media
-@media screen and (max-width: 1199px) and (min-width: 992px){
-    body {
-        color: red;
-    }
-}
-
-@media (max-width: 1199px) and (min-width: 992px){
-  
-}  */
-
-/* main */
-
-.flowers10 {
-  height: 100%;
-  width: 100%;
-  object-fit: contain;
-  cursor: pointer;
-  transition: all .1s ease-in-out;
- }
-
- .cat {
-  height:100%;
-  width: 100%;
-  display: inline-block;
- }
-
- .u-p {
-  margin: 3% 10%;
- }
-
-
-
 /* footer */
 .u-footer {
   height: 100%;
   width:100%;
   background: #ddd;
 }
-
 .rodape {
   width: 100%;
   padding: 60px 0;
   background-color: #9e7979;
 }
-
 .copyright {
   text-align: center;
 	color: #FFFFFF;
@@ -210,18 +202,12 @@ body{
 	margin: 20px 0 0;
 }
 
-/* MEDIA MIN-MAX teste */
 
-@media only screen and (max-width: 600px){
-  .u-h1 {
-    font-size: 45px;
-  }
-  .u-h2 {
-    font-size: 21px;
-    left: 93px;
-  }
-  .u-header {
-    padding: 30px 15px;
+
+/* MEDIA MIN-MAX teste */
+@media screen and (max-width: 600px){
+  .imagelogo {
+    width: 70%;
   }
 }
 
