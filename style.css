@@ -1,7 +1,10 @@
 
 
 body {
-    background-color: #ffffff;
+  font-family: Sora,sans-serif;
+    color: #000;
+    background: #fff;
+    overscroll-behavior-y: none;
 }
 
 /** menu **/
@@ -54,7 +57,7 @@ body {
   background-color: #f03861;
   padding: 2px 5px;
   text-align: center;
-  font-size: 0.8rem;
+  font-size: 55%;
   border-radius: 3px;
 }
 .tutorial ul li:hover ul li:hover {
@@ -247,8 +250,50 @@ a {
 
 
 
-
-
+/*parte2*/ 
+.fadeInUp {
+  -webkit-animation-name: fadeInUp;
+  animation-name: fadeInUp;
+}
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+.c-featured-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas: "description cover";
+  background-color: #e0e1df;
+}
+@media (max-width: 1379.98px){
+  .c-featured-2__description {
+    padding: 40px 0 80px;
+}
+}
+.c-featured-2__description {
+    grid-area: description;
+    align-self: center;
+    justify-self: center;
+    padding: 0 155px;
+}
+.c-featured-2__description h2 {
+  font-size: 26px;
+  font-weight: 400;
+  text-transform: uppercase;
+  line-height: 1.31;
+  color: #53624f;
+  max-width: 500px;
+}
+.c-featured-2__description p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.88;
+  color: #53624f;
+  max-width: 500px;
+  margin: 40px 0 70px;
+}
 
 
 /* footer */
