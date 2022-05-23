@@ -22,12 +22,12 @@ body {
   list-style-type: none;
 }
 .tutorial ul li {
-  font-family: "Open Sans", sans-serif;
-  font-size: 1rem;
+  font-family: 'Square Peg', cursive;
+  font-size: 2rem;
   font-weight: 400;
   color:  #000000;
   display: inline-block;
-  padding: 15px;
+  padding: 15px 50px;
   position: relative;
 }
 .tutorial ul li ul {
@@ -63,6 +63,9 @@ body {
 .tutorial ul li:hover ul li:hover span {
   background-color: #ce637a;
 } 
+.tutorial ul li .up {
+  padding: 15px;
+}
 /****/
 
 
